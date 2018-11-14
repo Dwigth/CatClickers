@@ -3,7 +3,9 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+
+
+/*
     Created on : 13/11/2018, 07:00:38 PM
     Author     : mr-dpad
 */
@@ -12,28 +14,37 @@ and open the template in the editor.
     padding: 0;
     background-color: #bc5090;
 }
-.cat{
+
+img {
+    width: 100%;
+}
+
+.cat {
     font-size: 1.5rem;
     cursor: pointer;
 }
-ul{
+
+ul {
     border: 1px solid #003f5c;
 }
-.cat:nth-child(odd){
+
+.cat:nth-child(odd) {
     background-color: #ffa600;
-    color:black;
-}
-.cat:nth-child(even){
-    background-color: #003f5c;
-    color:white;
+    color: black;
 }
 
-#visual-area{
+.cat:nth-child(even) {
+    background-color: #003f5c;
+    color: white;
+}
+
+#visual-area {
     width: 100%;
-    color:white;
+    color: white;
     position: relative;
 }
-#visual-area img{
+
+#visual-area img {
     position: relative;
     margin: auto;
 }
